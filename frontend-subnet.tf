@@ -6,6 +6,6 @@ resource "aws_subnet" "frontend-expense" {
 
 
   tags = {
-    Name = "frontend-expense-${ data.aws_availability_zones.available.names[count.index]}"
+    Name = "${var.frontend_subnet-name}-${ data.aws_availability_zones.available.names[count.index]}"
   }
   }

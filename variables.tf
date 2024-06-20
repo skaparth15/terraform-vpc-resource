@@ -38,6 +38,22 @@ variable "database_subnet_cidrs"{
   }
 }
 
+variable "frontend_subnet-name"{
+    type = string
+    
+}
+
+variable "backend_subnet-name"{
+    type = string
+    
+}
+
+variable "database_subnet-name"{
+    type = string
+    
+}
+
+
 
 
 
