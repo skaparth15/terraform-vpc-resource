@@ -40,16 +40,19 @@ variable "database_subnet_cidrs"{
 
 variable "frontend_subnet-name"{
     type = string
+    default = ""
     
 }
 
 variable "backend_subnet-name"{
     type = string
+    default = ""
     
 }
 
 variable "database_subnet-name"{
     type = string
+    default = ""
     
 }
 
