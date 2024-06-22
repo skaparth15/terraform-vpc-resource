@@ -15,7 +15,8 @@ output "database_subnet_id" {
   value = aws_subnet.database-expense[0].id
 }
 
-output "frontend-subnet-id" {
+output "frontend_subnet_id" {
   value = aws_subnet.frontend-expense[0].id
 }
+
 
