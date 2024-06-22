@@ -8,14 +8,14 @@ output "vpc_id" {
 
 
 output "backend_subnet_id" {
-  value = aws_subnet.backend-expense.id
+  value = aws_subnet.backend-expense.id[0]
 }
 
 output "database_subnet_id" {
-  value = aws_subnet.database-expense.id
+  value = aws_subnet.database-expense.id[0]
 }
 
 output "frontend-subnet-id" {
-  value = aws_subnet.frontend-expense.id
+  value = aws_subnet.frontend-expense.id[0]
 }
 
