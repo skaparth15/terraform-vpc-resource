@@ -57,6 +57,13 @@ variable "database_subnet_name"{
 }
 
 
+variable "frontend_subnet_group_name"{
+    type = string
+    default = ""
+    
+}
+
+
 
 
 
