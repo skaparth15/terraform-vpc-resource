@@ -11,7 +11,7 @@ resource "aws_subnet" "database-expense" {
   }
 
 
-  resource "aws_db_subnet_group" "default" {
+  resource "aws_db_subnet_group" "subnet-group" {
   name       = var.frontend_subnet_group_name
   subnet_ids = aws_subnet.database-expense[*].id
 

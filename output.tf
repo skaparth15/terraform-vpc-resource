@@ -19,4 +19,7 @@ output "frontend_subnet_id" {
   value = aws_subnet.frontend-expense[0].id
 }
 
+output "database_subnet_group" {
+value = aws_db_subnet_group.subnet-group.name
+}
 
